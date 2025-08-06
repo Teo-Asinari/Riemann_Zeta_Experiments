@@ -15,19 +15,6 @@ This project explores the Riemann zeta function ζ(s) through high-precision vis
 - Identification of both trivial zeros (negative even integers) and non-trivial zeros
 - Clean, PEP 8 compliant code with Black formatting
 
-## Project Structure
-
-```
-Riemann_Zeta_Experiments/
-├── src/
-│   ├── __init__.py
-│   ├── zeta_visualizer.py    # Main visualization tool
-│   └── focused_zeros.py      # High-resolution zero finder
-├── requirements.txt          # Python dependencies
-├── .gitignore               # Git ignore patterns
-└── README.md                # This file
-```
-
 ## Usage
 
 ```bash
@@ -63,6 +50,3 @@ The project generates visualizations showing:
 - Critical strip boundaries marked
 - Dark regions indicating zeros where |ζ(s)| ≈ 0
 
----
-
-*This project represents an exploration into one of mathematics' greatest unsolved problems.*
