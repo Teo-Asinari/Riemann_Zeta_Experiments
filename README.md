@@ -15,11 +15,18 @@ This project explores the Riemann zeta function ζ(s) through high-precision vis
 - Identification of both trivial zeros (negative even integers) and non-trivial zeros
 - Clean, PEP 8 compliant code with Black formatting
 
-## Key Files
+## Project Structure
 
-- `zeta_visualizer.py` - Main visualization tool for the Riemann zeta function
-- `focused_zeros.py` - High-resolution view of the first few non-trivial zeros
-- `requirements.txt` - Python dependencies
+```
+Riemann_Zeta_Experiments/
+├── src/
+│   ├── __init__.py
+│   ├── zeta_visualizer.py    # Main visualization tool
+│   └── focused_zeros.py      # High-resolution zero finder
+├── requirements.txt          # Python dependencies
+├── .gitignore               # Git ignore patterns
+└── README.md                # This file
+```
 
 ## Usage
 
@@ -28,10 +35,10 @@ This project explores the Riemann zeta function ζ(s) through high-precision vis
 pip install -r requirements.txt
 
 # Generate basic zeta function visualization
-python zeta_visualizer.py
+python src/zeta_visualizer.py
 
 # Generate focused view of first zeros
-python focused_zeros.py
+python src/focused_zeros.py
 ```
 
 ## Mathematical Background
